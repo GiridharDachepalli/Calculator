@@ -9,8 +9,6 @@ COPY target/Calculator-1.0-SNAPSHOT.jar /app/application.jar
 
 copy . .
 
-ENV PORT 80
-EXPOSE 80
 # Specify the command to run your application
 CMD ["java", "-jar", "/app/application.jar"]
 
